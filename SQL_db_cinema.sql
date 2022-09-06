@@ -1,0 +1,5 @@
+CREATE TABLE Cliente (
+  IdCliente NOT NULL PRIMARY KEY IDENTITY(1,1),
+  Nombre VARCHAR(50) NOT NULL,
+  Apellido VARCHAR(50) NOT NULL
+);
